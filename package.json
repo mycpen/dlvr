@@ -2,7 +2,7 @@
 	"name": "dlvr",
 	"private": true,
 	"version": "0.0.0",
-	"packageManager": "pnpm@7.33.6",
+	"packageManager": "pnpm@8.7.1",
 	"author": "Ray <i@mk1.io> (@so1ve)",
 	"description": "",
 	"keywords": [],
@@ -28,7 +28,7 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
-		"destr": "^1.2.2",
+		"destr": "^2.0.0",
 		"esbuild": "^0.19.0",
 		"html-minifier-terser": "^7.2.0",
 		"micromatch": "^4.0.5",
@@ -36,8 +36,8 @@
 	},
 	"devDependencies": {
 		"@antfu/ni": "^0.21.3",
-		"@so1ve/eslint-config": "^0.115.5",
-		"@so1ve/prettier-config": "^0.115.5",
+		"@so1ve/eslint-config": "^0.120.0",
+		"@so1ve/prettier-config": "^0.120.0",
 		"@types/clean-css": "^4.2.6",
 		"@types/html-minifier-terser": "^7.0.0",
 		"@types/micromatch": "^4.0.2",
@@ -50,6 +50,6 @@
 		"typescript": "^5.0.4",
 		"unplugin-auto-import": "^0.16.2",
 		"vite": "^4.3.8",
-		"vitest": "^0.32.0"
+		"vitest": "^0.34.0"
 	}
 }
