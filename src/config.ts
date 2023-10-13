@@ -18,5 +18,10 @@ export const resolveNPMURL: NPMURLResolver = ({ pkg, version, path }) =>
 	`${UNPKG}/${pkg}@${version}${path ? `/${removeTrailingSlash(path)}` : ""}`;
 export const MAX_CACHE = "public, max-age=31536000, immutable";
 
-export const BANNED_NPM: NPMBannedList = [];
-export const BANNED_GITHUB: GitHubBannedList = [];
+// https://github.com/so1ve/dlvr/blob/main/docs/config.md
+export const BANNED_NPM: NPMBannedList = [
+	"*/**",
+];
+export const BANNED_GITHUB: GitHubBannedList = [
+	"!mycpen/**",
+];
