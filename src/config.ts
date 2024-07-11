@@ -24,4 +24,5 @@ export const BANNED_NPM: NPMBannedList = [
 ];
 export const BANNED_GITHUB: GitHubBannedList = [
 	"!mycpen/**",
+	"!BigCoke233/**",
 ];
