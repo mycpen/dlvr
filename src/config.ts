@@ -21,6 +21,7 @@ export const MAX_CACHE = "public, max-age=31536000, immutable";
 // https://github.com/so1ve/dlvr/blob/main/docs/config.md
 export const BANNED_NPM: NPMBannedList = [
 	"!mycpen*/**",
+	// test
 ];
 export const BANNED_GITHUB: GitHubBannedList = [
 	// "!mycpen/**",
